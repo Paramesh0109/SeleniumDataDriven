@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="4" passed="4" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-01-25T17:04:55 IST" name="Default suite" finished-at="2023-01-25T17:05:14 IST" duration-ms="18968">
+    <groups>
+    </groups>
+    <test started-at="2023-01-25T17:04:55 IST" name="Default test" finished-at="2023-01-25T17:05:14 IST" duration-ms="18968">
+      <class name="com.DataDrivenJXL.DataDrivenExcel">
+        <test-method signature="GetData(java.lang.String,java.lang.String)[pri:0, instance:com.DataDrivenJXL.DataDrivenExcel@68999068]" started-at="2023-01-25T17:04:55 IST" name="GetData" data-provider="Logindata" finished-at="2023-01-25T17:05:01 IST" duration-ms="5688" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Admin]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[admin1231]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- GetData -->
+        <test-method signature="GetData(java.lang.String,java.lang.String)[pri:0, instance:com.DataDrivenJXL.DataDrivenExcel@68999068]" started-at="2023-01-25T17:05:01 IST" name="GetData" data-provider="Logindata" finished-at="2023-01-25T17:05:05 IST" duration-ms="4390" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Addmin]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[admin123]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- GetData -->
+        <test-method signature="GetData(java.lang.String,java.lang.String)[pri:0, instance:com.DataDrivenJXL.DataDrivenExcel@68999068]" started-at="2023-01-25T17:05:05 IST" name="GetData" data-provider="Logindata" finished-at="2023-01-25T17:05:10 IST" duration-ms="4428" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Adddmin]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[admin233]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- GetData -->
+        <test-method signature="GetData(java.lang.String,java.lang.String)[pri:0, instance:com.DataDrivenJXL.DataDrivenExcel@68999068]" started-at="2023-01-25T17:05:10 IST" name="GetData" data-provider="Logindata" finished-at="2023-01-25T17:05:14 IST" duration-ms="4369" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Admin]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[admin123]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- GetData -->
+      </class> <!-- com.DataDrivenJXL.DataDrivenExcel -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

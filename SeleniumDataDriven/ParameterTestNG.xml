@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+<suite name="Parameter Suite">
+	<test name="UserNameCorrect">
+		<parameter name="username" value="notification@ftxtradingsoftware.com"></parameter>
+		<parameter name="password" value="ivation8903233335"></parameter>
+		<classes>
+			<class name="com.DataDrivenParameter.UserNameCorrect"></class>
+		</classes>
+
+	</test>
+	<test name="PasswordCorrect">
+		<parameter name="username"
+			value="notjcation@ftxtradingsoftware.com"></parameter>
+		<parameter name="password" value="Activation8903233335"></parameter>
+		<classes>
+			<class name="com.DataDrivenParameter.PasswordCorrect"></class>
+		</classes>
+
+	</test>
+	<test name="BothIncorrect">
+		<parameter name="username"
+			value="notjcation@ftxtradingsoftware.com"></parameter>
+		<parameter name="password" value="Afivdf903233335"></parameter>
+		<classes>
+			<class name="com.DataDrivenParameter.BothIncorrect"></class>
+		</classes>
+
+	</test>
+	<test name="BothCorrect">
+		<parameter name="username"
+			value="notification@ftxtradingsoftware.com"></parameter>
+		<parameter name="password" value="Activation8903233335"></parameter>
+		<classes>
+			<class name="com.DataDrivenParameter.BothCorrect"></class>
+		</classes>
+
+	</test>
+
+
+</suite>

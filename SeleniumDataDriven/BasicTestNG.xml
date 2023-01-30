@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+<suite name="DataDriven">
+<test name="DDTestCase">
+<classes>
+<class name ="com.DataDrivenBasic.UserNameCorrect"></class>
+<class name ="com.DataDrivenBasic.PasswordCorrect"></class>
+<class name ="com.DataDrivenBasic.BothIncorrect"></class>
+<class name ="com.DataDrivenBasic.BothCorrect"></class>
+</classes>
+</test>
+</suite>

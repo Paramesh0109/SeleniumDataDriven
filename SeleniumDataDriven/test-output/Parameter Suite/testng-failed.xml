@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Parameter Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="UserNameCorrect(failed)">
+    <classes>
+      <class name="com.DataDrivenDataProvider.DataProviderExample">
+        <methods>
+          <include name="LoginWithDataProvider"/>
+        </methods>
+      </class> <!-- com.DataDrivenDataProvider.DataProviderExample -->
+    </classes>
+  </test> <!-- UserNameCorrect(failed) -->
+</suite> <!-- Failed suite [Parameter Suite] -->
